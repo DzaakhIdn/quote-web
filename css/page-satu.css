@@ -309,7 +309,7 @@ button:hover {
 .content p {
     font-family: 'ABeeZee';
     color: #333;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
     text-indent: 20%;
     /* border: 1px solid black; */
@@ -317,7 +317,7 @@ button:hover {
     height: 100px;
     position: absolute;
     font-weight: 300;
-    top: 45%;
+    top: 47%;
     left: 17%;
 }
 .author{
@@ -380,10 +380,6 @@ button:hover {
 }
 .content:hover >.foto {
     transform: rotateY(180deg)
-}
-.content .author:hover{
-    cursor: pointer;
-    transform: scale(1.1, 1.1);
 }
 .content .author:hover{
     cursor: pointer;
