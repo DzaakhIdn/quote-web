@@ -271,12 +271,12 @@ button:hover {
 }
 .content .foto{
     /* border: 2px solid rgb(255, 255, 255); */
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 50%;
     position: relative;
-    margin: 50px auto;
+    margin: 20px auto;
     transition: transform 1.5s;
     transform-style: preserve-3d;
 }
@@ -288,8 +288,8 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid rgb(255, 255, 255);
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     z-index: 1;
 }
@@ -302,23 +302,23 @@ button:hover {
     border: 1.2px solid white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 .content p {
     font-family: 'ABeeZee';
     color: #333;
-    font-size: 21px;
+    font-size: 20px;
     text-align: left;
     text-indent: 20%;
     /* border: 1px solid black; */
-    width: 330px;
+    width: 315px;
     height: 100px;
     position: absolute;
     font-weight: 300;
     top: 47%;
-    left: 16%;
+    left: 17%;
 }
 .author{
     /* border: 1px solid black; */
@@ -380,6 +380,10 @@ button:hover {
 }
 .content:hover >.foto {
     transform: rotateY(180deg)
+}
+.content .author:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
 }
 .content .author:hover{
     cursor: pointer;
